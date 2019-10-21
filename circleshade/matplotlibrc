@@ -1,0 +1,17 @@
+### Fonts
+text.usetex : True
+font.family : sans-serif
+font.size : 20
+mathtext.fontset : cm
+
+### Figures and animations
+figure.figsize : 6.0, 6.0
+
+### Saving
+savefig.bbox : tight
+savefig.format : pdf
+
+### Images
+image.cmap   : gray
+image.origin : lower
+image.interpolation : none
