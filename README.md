@@ -1,7 +1,5 @@
 # circleshade
-Exact area-weighted antialiasing of circular disks.  Implementation of the algorithm described in
-Will and Fienup, "*An algorithm for exact area-weighted antialiasing of discrete circular apertures,*"
-2019 (submitted).
+Implementation of the algorithm described in Will and Fienup, "*Algorithm for exact area-weighted antialiasing of discrete circular apertures,*" J. Opt. Soc. Am. A **37**, 688-696 (2020).
 
 # Requirements
 NumPy, SciPy, matplotlib, Cython
@@ -37,5 +35,5 @@ plt.show()
 ```
 
 # Known issues
-- If the requested disk exceeds the boundaries of the computational array, the algorithm will fail
-  due to an out of bounds error
+- If the requested aperture exceeds the boundaries of the computational array, the algorithm will fail
+  due to an out of bounds error.  If this happens, simply define an array large enough to contain the aperture and crop the result to the desired dimensions.
