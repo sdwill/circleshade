@@ -1,5 +1,5 @@
 # circleshade
-Implementation of the algorithm described in Will and Fienup, "*Algorithm for exact area-weighted antialiasing of discrete circular apertures,*" J. Opt. Soc. Am. A **37**, 688-696 (2020).
+Implementation of the algorithm described in S.D. Will and J.R. Fienup, "*Algorithm for exact area-weighted antialiasing of discrete circular apertures,*" J. Opt. Soc. Am. A **37**, 688-696 (2020).
 
 # Requirements
 NumPy, SciPy, matplotlib, Cython
